@@ -1,0 +1,28 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore any logs
+*.log
+
+# Ignore override files as they are usually not checked in
+*.override
+*.override.tf
+*_override.tf
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore the .terraform directory which stores modules and providers
+.terraform/
+
+# Ignore plan files
+*.tfplan
+
+# Ignore the variables file if it contains sensitive data
+# This is optional; only include if you have a file with sensitive data
+terraform.tfvars
